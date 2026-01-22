@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.bunter-text {
+    background-color: black;
+    color: red;
+}
+
+.box1 {
+    background-color: green;
+    color: yellow;
+    margin: 20px;
+    padding: 50px;
+    border: 5px solid black;
+    width: 50%; 
+}
+
+.box2 {
+    background-color: purple;
+    color: white;
+    margin: 20px;
+    padding: 80px;
+    border: 5px solid black;
+    font-size: 36px;
+    width: 50%;
+}
