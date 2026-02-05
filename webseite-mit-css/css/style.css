@@ -66,3 +66,52 @@ body {
     color: white;
     box-shadow: 5px 5px 8px black;
 }
+
+.box4 {
+    background-color: goldenrod;
+    color: black;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box4:first-child {
+    background-color: blueviolet;
+}
+
+.box4:last-child {
+    background-color: lightgreen;
+}
+
+
+.box5 {
+    background-color: orchid;
+    color: black;
+    margin: 40px;
+    margin-right: 100px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+
+.box5:nth-child(3n-1) {
+    background-color: lightgreen;
+    margin-left: 100px;
+    margin-right: 40px;
+}
+
+.foto1 {
+    margin: 20px;
+    width: 500px;
+}
+
+.foto2 {
+    margin: 20px;
+    width: 50%;
+}
+
+.foto3 {
+    margin: 20px;
+    width: 80%;
+}
