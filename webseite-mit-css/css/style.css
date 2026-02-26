@@ -3,6 +3,10 @@
 }
 
 body {
+    background-image: url('../images/train.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
@@ -101,17 +105,60 @@ body {
     margin-right: 40px;
 }
 
+
+.fotobox {
+    background-color: rgba(255, 127, 80, 0.7);
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    overflow: hidden;
+    /* opacity: 0.7; */
+}
+
+
 .foto1 {
     margin: 20px;
     width: 500px;
+    border-radius: 30px;
 }
 
 .foto2 {
     margin: 20px;
     width: 50%;
+    border-radius: 30px;
 }
 
 .foto3 {
     margin: 20px;
     width: 80%;
+    border-radius: 30px;
+}
+
+.foto4 {
+    margin: 20px;
+    width: 80%;
+    border-radius: 30px;
+    filter: grayscale(100%);
+}
+
+.foto5 {
+    margin: 20px;
+    width: 80%;
+    border-radius: 30px;
+    filter: blur(6px);
+}
+
+.foto6 {
+    margin: 20px;
+    width: 80%;
+    border-radius: 30px;
+    filter: grayscale(100%) blur(6px);
+}
+
+.foto6:hover {
+    filter: grayscale(0%) blur(0px);
 }
