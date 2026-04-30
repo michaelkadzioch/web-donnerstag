@@ -90,3 +90,33 @@ body {
 .btn5 {
     background-color: rgb(from var(--btn-color-main) calc(r + 40) g calc(b + 120));
 }
+
+
+.box4 {
+    background-color: crimson;
+    color: white;
+    font-size: 36px;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    
+    .box4 {
+        background-color: green;
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .box4 {
+        background-color: blue;
+        font-size: 14px;
+        text-align: center;;
+    }
+
+}

@@ -1,0 +1,27 @@
+:root {
+    --global-bg-color: #3c3c3c;
+    --global-fg-color: white;
+    --global-radius: 12px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--global-bg-color);
+    color: var(--global-fg-color);
+} 
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-content {
+    text-align: center;
+    font-family: monospace;
+}
